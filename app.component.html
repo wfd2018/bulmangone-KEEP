@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <html class="has-navbar-fixed-top">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>bulmangone</title>
+</head>
+
+<body>
+
+  <app-header></app-header>
+
+  <nav>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active" routerLink="/">
+          <span class="sr-only"> </span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="app/tiles"> </a>
+      </li>
+    </ul>
+  </nav>
+
+      <!--  //////////////////////////  -->
+
+      <li class="button">
+        <a class="button-link" routerLinkActive="active" routerLink="bulma"> </a>
+      </li>
+
+
+      <app-hero></app-hero>
+      
+
+  <script src="https://kit.fontawesome.com/4372dc444b.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,11 @@
+.footer-img {
+  margin: 20px auto 18px;
+  height: 140px;
+  width: 100%;
+  max-width: 640px;
+}
+.footer-img img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}

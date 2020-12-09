@@ -1,0 +1,16 @@
+.footer-img {
+  margin: 20px auto 18px;
+  height: 140px;
+  width: 100%;
+  max-width: 640px;
+}
+.footer-group a:hover {
+  color: #28038f;
+  font-size: 1.0rem;
+}
+.footer-group {
+  margin-bottom: 10px;
+}
+.footer-group h4 {
+  color: #28038f;
+}
